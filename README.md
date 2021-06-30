@@ -8,7 +8,7 @@
 View the responsive layout on all devices 
 
 
-**Build With: **
+**Build With:**
 
 -Mobile first approach
 
