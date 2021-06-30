@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+/* Typography */
+p {
+  line-height: 1.4em;
+}
+.summary-box h3 {
+  color: hsl(179, 62%, 43%);
+}
+.guarantee-text {
+  color: hsl(71, 73%, 52%);
+}
+.details {
+  color: hsl(218, 22%, 67%);
+}
+.subscription-box,
+.features-box {
+  color: white;
+}
+.subscription-box span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.subscription-box p,
+.features-box p {
+  font-weight: 300;
+}
+/* Layout */
+h3 {
+  margin-bottom: 1.5em;
+}
+.rates {
+  margin-bottom: 1em;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 80%;
+  margin: 4em auto;
+}
+
+.flex-item {
+  padding: 2em;
+}
+
+.summary-box {
+  background-color: white;
+}
+.subscription-box {
+  background-color: hsl(179, 62%, 43%);
+}
+.features-box {
+  background-color: hsl(179, 62%, 45%);
+}
+
+.guarantee-text {
+  margin-bottom: 1.5em;
+}
+
+.subscription-box button {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  color: white;
+  padding: 0.7em 1.5em;
+  width: 100%;
+  margin-top: 2em;
+  border-radius: 7px;
+  font-size: 1rem;
+  max-width: 15em;
+  box-shadow: 1px 25px 22px 6px rgba(163, 165, 174, 0.3);
+  -webkit-box-shadow: 1px 25px 22px 6px rgba(163, 165, 174, 0.3);
+  -moz-box-shadow: 1px 25px 22px 6px rgba(163, 165, 174, 0.3);
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media Query */
+
+@media (min-width: 600px) {
+  .flex-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 40em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+  .summary-box {
+    width: 100%;
+  }
+  .subscription-box {
+    width: 50%;
+  }
+  .features-box {
+    width: 50%;
+  }
+}
