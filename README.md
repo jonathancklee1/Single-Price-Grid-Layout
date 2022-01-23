@@ -14,3 +14,7 @@ View the responsive layout on all devices
 
 
 -Flexbox 
+
+## Live Preview
+
+See preview here: https://jonathancklee1.github.io/Single-Price-Grid-Layout/
